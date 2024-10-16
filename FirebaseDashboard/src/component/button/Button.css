@@ -1,0 +1,21 @@
+.btn-default{
+    padding: 10px 40px 10px 40px;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-style: normal;
+    border: none;
+    border-radius: 5px;
+}
+.btn-active{
+    padding: 10px 40px 10px 40px;
+    background-color: var(--primary-color);
+    color: var(--black-color);
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-style: normal;
+    border: none;
+    border-radius: 5px;
+
+}

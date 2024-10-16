@@ -1,0 +1,38 @@
+.main-wraper{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 30px 50px 30px 50px;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h1 {
+    margin-top: 100px;
+    color: var(--white-color);
+}
+.container h2 {
+    margin-top: 200px;
+    color: var(--white-color);
+    margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+    .main-wraper{
+       width: 100%;
+    }
+    .container h1 {
+       font-size: 1.7rem;
+       text-align: center;
+    }
+    .container h2 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+  }
