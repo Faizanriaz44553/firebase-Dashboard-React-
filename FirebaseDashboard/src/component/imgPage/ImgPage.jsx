@@ -1,7 +1,7 @@
 import "./ImgPage.css";
 import Button from "../button/Button";
 
-function ImgPage({ Title, Account, data, isActive, logo }) {
+function ImgPage({ Title, Account, data, isActive, logo ,button }) {
   return (
     <div className="main-div">
       <div
@@ -21,7 +21,7 @@ function ImgPage({ Title, Account, data, isActive, logo }) {
             <h2>{Account}</h2>
           </div>
           <div className="button-div">
-            <Button data="Sign In" />
+            <Button data={button} />
           </div>
         </div>
       </div>
